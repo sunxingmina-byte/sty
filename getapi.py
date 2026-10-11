@@ -267,16 +267,20 @@ def get_v2ray_base64():
     return Response(sub_manager.v2ray_base64, media_type="text/plain; charset=utf-8")
 
 # ============ 启动入口 ============
+# 修改 main 部分
 if __name__ == "__main__":
-    logger.info("服务正在初始化...")
-    
-    # 首次启动时同步拉取一次数据
     sub_manager.refresh_nodes()
     
-    # 启动后台刷新线程
-    threading.Thread(target=background_task, daemon=True).start()
-    logger.info("后台刷新线程已启动。")
+    # 写入 Clash 配置
+    with open("clash.yaml", "w", encoding="utf-8") as f:
+        f.write(sub_manager.clash_yaml)
     
-    # 启动 FastAPI 服务
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8833)
+    # 写入 Sing-box 配置
+    with open("singbox.json", "w", encoding="utf-8") as f:
+        f.write(sub_manager.singbox_json)
+        
+    # 写入 V2ray 订阅
+    with open("v2ray.txt", "w", encoding="utf-8") as f:
+        f.write(sub_manager.v2ray_base64)
+    
+    logger.info("配置文件已生成到本地")

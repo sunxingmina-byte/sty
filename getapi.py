@@ -16,8 +16,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # 从环境变量读取敏感信息，避免硬编码
-UID = "f33e3c8d-6d03-40f4-963c-6cfd753e15d6"
-HMAC_KEY = b'5f5749e77a9b'
+UID = os.environ.get("MY_UID")
+HMAC_KEY = os.environ.get("MY_HMAC_KEY", "").encode('utf-8')
 VERSION = '2.3.0'
 PLATFORM = 'win'
 MAX_WORKERS = 10  # 适当减小线程数，避免触发 API 频控

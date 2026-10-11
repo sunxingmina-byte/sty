@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run Generator
-        run: python your_script_name.py
+        run: python getapi.py
       - name: Commit and push
         run: |
           git config --global user.name "github-actions"

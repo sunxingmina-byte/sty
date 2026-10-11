@@ -28,7 +28,7 @@ jobs:
         env:
           MY_UID: ${{ secrets.MY_UID }}
           MY_HMAC_KEY: ${{ secrets.MY_HMAC_KEY }}
-        run: python proxy_sub.py
+        run: python getapi.py
 
       - name: Commit and Push Files
         run: |

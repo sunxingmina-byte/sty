@@ -4,3 +4,6 @@ fastapi
 hashlib
 hmac
 yaml
+fastapi
+uvicorn
+pyyaml

@@ -8,6 +8,7 @@ from urllib.parse import urlencode
 import hashlib
 import hmac
 import yaml
+import os
 from fastapi import FastAPI, Response
 from curl_cffi import requests
 import curl_cffi.requests.exceptions
@@ -17,8 +18,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-UID = "f33e3c8d-6d03-40f4-963c-6cfd753e15d6"
-HMAC_KEY = b'5f5749e77a9b'
+UID = os.environ.get("MY_UID", "默认值")
+HMAC_KEY = os.environ.get("MY_KEY", "默认值").encode()
 VERSION = '2.3.0'
 PLATFORM = 'win'
 MAX_WORKERS = 20  # 线程池大小

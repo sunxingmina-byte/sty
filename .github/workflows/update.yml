@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: # 添加这几行，赋予写入权限
+      contents: write 
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python

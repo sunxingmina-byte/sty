@@ -269,18 +269,26 @@ def get_v2ray_base64():
 # ============ 启动入口 ============
 # 修改 main 部分
 if __name__ == "__main__":
+    # 强制刷新，不理会异步逻辑
     sub_manager.refresh_nodes()
     
-    # 写入 Clash 配置
-    with open("clash.yaml", "w", encoding="utf-8") as f:
-        f.write(sub_manager.clash_yaml)
+    # 调试：打印节点数量
+    print(f"Debug: 获取到的节点数量: {len(sub_manager.raw_nodes)}")
+    print(f"Debug: is_ready 状态: {sub_manager.is_ready}")
     
-    # 写入 Sing-box 配置
-    with open("singbox.json", "w", encoding="utf-8") as f:
-        f.write(sub_manager.singbox_json)
-        
-    # 写入 V2ray 订阅
-    with open("v2ray.txt", "w", encoding="utf-8") as f:
-        f.write(sub_manager.v2ray_base64)
-    
-    logger.info("配置文件已生成到本地")
+    if len(sub_manager.raw_nodes) > 0:
+        # 写入文件
+        with open("clash.yaml", "w", encoding="utf-8") as f:
+            f.write(sub_manager.clash_yaml)
+            print("Clash 文件写入完成")
+            
+        with open("singbox.json", "w", encoding="utf-8") as f:
+            f.write(sub_manager.singbox_json)
+            print("Sing-box 文件写入完成")
+            
+        with open("v2ray.txt", "w", encoding="utf-8") as f:
+            f.write(sub_manager.v2ray_base64)
+            print("V2ray 文件写入完成")
+    else:
+        print("错误：未获取到有效节点，请检查 API 是否能被正常访问！")
+        exit(1) # 如果没获取到节点，让任务失败，以便在日志中看到

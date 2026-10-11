@@ -1,9 +1,4 @@
-curl_cffi
-requests
-fastapi
-hashlib
-hmac
-yaml
 fastapi
 uvicorn
+curl_cffi
 pyyaml

@@ -18,8 +18,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-UID = os.environ.get("MY_UID", "默认值")
-HMAC_KEY = os.environ.get("MY_KEY", "默认值").encode()
+UID = "f33e3c8d-6d03-40f4-963c-6cfd753e15d6"
+HMAC_KEY = b'5f5749e77a9b'
 VERSION = '2.3.0'
 PLATFORM = 'win'
 MAX_WORKERS = 20  # 线程池大小

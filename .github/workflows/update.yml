@@ -1,28 +1,45 @@
 name: Update Subscriptions
+
 on:
   schedule:
-    - cron: '*/30 * * * *' # 每30分钟执行一次
-  workflow_dispatch:        # 允许手动触发
+    - cron: '0 */2 * * *' # 每两小时执行一次
+  workflow_dispatch:      # 支持手动触发
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: # 添加这几行，赋予写入权限
-      contents: write 
+    permissions:
+      contents: write     # 必须赋予写入权限，以便保存文件
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
         with:
-          python-version: '3.10'
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: pip install curl_cffi pyyaml
+
       - name: Run Generator
-        run: python getapi.py
-      - name: Commit and push
+        env:
+          MY_UID: ${{ secrets.MY_UID }}
+          MY_HMAC_KEY: ${{ secrets.MY_HMAC_KEY }}
+        run: python proxy_sub.py
+
+      - name: Commit and Push Files
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Update subscription files" || exit 0
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 仅在文件有变动时才提交
+          if [[ -n $(git status -s) ]]; then
+            git add dist/
+            git commit -m "chore: auto-update subscription files"
+            git push
+          else
+            echo "No changes detected, skipping commit."
+          fi

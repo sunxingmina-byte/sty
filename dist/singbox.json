@@ -81,7 +81,7 @@
       "tag": "[学术节点]美国01",
       "server": "US122201.ssgreen.org",
       "server_port": 443,
-      "uuid": "216f95a0-2c61-41ae-bd69-e6c6ccb1b5f5",
+      "uuid": "f10ce158-b835-4c51-a0fc-f7d58138986a",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -92,7 +92,7 @@
       "tag": "[学术节点]美国02",
       "server": "US122202.ssgreen.org",
       "server_port": 443,
-      "uuid": "c376bc3d-22b1-41cc-ba3f-f874c705390c",
+      "uuid": "5c4808b1-669b-4684-a308-3443e46839a2",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -103,7 +103,7 @@
       "tag": "[学术节点]美国04",
       "server": "US122204.ssgreen.org",
       "server_port": 443,
-      "uuid": "c44a8087-5fcf-42f3-93d4-8eca5e687c7e",
+      "uuid": "b140407b-a00f-461f-8c42-6e29cf31e1ee",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -114,7 +114,7 @@
       "tag": "[学术节点]美国05",
       "server": "US122205.ssgreen.org",
       "server_port": 443,
-      "uuid": "1bfa0300-af57-43dd-81ec-3e44dfc2cdee",
+      "uuid": "07270efe-49c0-415c-bf09-c68b231ac904",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -125,7 +125,7 @@
       "tag": "[学术节点]美国06",
       "server": "US122206.ssgreen.org",
       "server_port": 443,
-      "uuid": "b773a76b-ae50-42c3-8bb0-456251f81ff5",
+      "uuid": "d96bb780-609a-4048-aca8-8c48aca7b641",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -136,7 +136,7 @@
       "tag": "[学术节点]美国07",
       "server": "US122207.ssgreen.org",
       "server_port": 443,
-      "uuid": "0d35f2f7-85fb-4db8-8e90-eb984fc63ed2",
+      "uuid": "29cfef6a-fea8-43b8-abec-3d1216fd1a3c",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -158,7 +158,7 @@
       "tag": "[学术节点]美国09",
       "server": "US122209.ssgreen.org",
       "server_port": 443,
-      "uuid": "f2bd5a09-b993-4fd1-a9c4-e79dc0c853f3",
+      "uuid": "8e236620-c257-4473-afa3-7cfbb658e283",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -180,7 +180,7 @@
       "tag": "[学术节点]日本05",
       "server": "JP032006.ssgreen.org",
       "server_port": 443,
-      "uuid": "9e0ec997-fd9e-4453-9b18-eb3ea23bbead",
+      "uuid": "41767cb0-c7d2-400e-ad80-0baaf3c33f25",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -191,7 +191,7 @@
       "tag": "[学术节点]日本06",
       "server": "JP032007.ssgreen.org",
       "server_port": 443,
-      "uuid": "b01a669a-30b1-4bbc-bf82-52e52e4e2f91",
+      "uuid": "facfe9a5-717b-4ef0-9881-7c51922d0afb",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -202,7 +202,7 @@
       "tag": "[学术节点（高速）]美国01",
       "server": "US032010.westmgreen.com",
       "server_port": 443,
-      "uuid": "fd29ec19-a376-45b4-906b-32f292cb2438",
+      "uuid": "da6a2039-a72e-4c43-8732-b976e39d0d79",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -213,7 +213,7 @@
       "tag": "[学术节点（高速）]美国02",
       "server": "US032011.westmgreen.com",
       "server_port": 443,
-      "uuid": "bc9aaa54-a889-40bb-ae4a-7478286fc45d",
+      "uuid": "33d12bde-00cd-47a6-b781-fc45996874d5",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -224,7 +224,7 @@
       "tag": "[学术节点（高速）]美国03",
       "server": "US032012.westmgreen.com",
       "server_port": 443,
-      "uuid": "18c0b434-ebea-44c9-8b8c-4d101fdb88c3",
+      "uuid": "bf176493-88b1-4949-aa0a-c4c9e24b4fab",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -235,7 +235,7 @@
       "tag": "[学术节点（高速）]美国04",
       "server": "US032013.ssgreen.org",
       "server_port": 443,
-      "uuid": "d6a42d25-bdb7-4168-892e-d855105d01f2",
+      "uuid": "17b2fcad-534e-47b1-a1fa-c1bb0c873e69",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -257,7 +257,7 @@
       "tag": "[学术节点（高速）]日本01",
       "server": "JP032002.ssgreen.org",
       "server_port": 443,
-      "uuid": "136cbf9b-6e88-429b-be68-f73df8195c22",
+      "uuid": "32e61a78-4cad-4aba-9a61-fd78d95baf70",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -268,7 +268,7 @@
       "tag": "[学术节点（高速）]日本02",
       "server": "JP032011.ssgreen.org",
       "server_port": 443,
-      "uuid": "6d09ad72-3022-4a00-8387-6967f2136ece",
+      "uuid": "6f68e46f-16bb-4437-b467-2dd7db0e1895",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -279,7 +279,7 @@
       "tag": "[学术节点（高速）]日本03",
       "server": "JP032012.ssgreen.org",
       "server_port": 443,
-      "uuid": "1b21a912-8314-49dc-8f4c-12ce06b3fd73",
+      "uuid": "d9bfe7a4-96fe-4324-b9dc-ad0024b1f56c",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -290,7 +290,7 @@
       "tag": "[学术节点（高速）]日本04",
       "server": "JP032001.ssgreen.org",
       "server_port": 443,
-      "uuid": "4f090f15-9155-41f4-8636-36fa73ee7212",
+      "uuid": "92ef8627-3500-4b29-8a18-26458cee7608",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -301,7 +301,7 @@
       "tag": "[美国]美国03",
       "server": "US032017.ssgreen.org",
       "server_port": 443,
-      "uuid": "25df33ff-adc2-4e2f-8d15-3190f2d4d2fb",
+      "uuid": "455f11c5-9c81-4323-8ab2-7b1307e59915",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -312,7 +312,7 @@
       "tag": "[美国]美国04",
       "server": "US032018.ssgreen.org",
       "server_port": 443,
-      "uuid": "28f7eb83-8306-4b13-8561-17fdc32d312e",
+      "uuid": "49d4be1c-dd78-4b46-b95b-aa5655702f4b",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -323,7 +323,7 @@
       "tag": "[美国]美国05",
       "server": "US032019.ssgreen.org",
       "server_port": 443,
-      "uuid": "b5bc7a72-9375-4667-afaa-8ec8cb50e66d",
+      "uuid": "977ad9cc-42e9-45a7-b817-79346222c9db",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -334,7 +334,7 @@
       "tag": "[美国]美国06",
       "server": "US032020.ssgreen.org",
       "server_port": 443,
-      "uuid": "71b6e97a-a799-46a7-87f7-11bceca02d42",
+      "uuid": "3832305e-46ad-41f2-94b5-1c0f155fb2a1",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -345,7 +345,7 @@
       "tag": "[美国]美国07",
       "server": "US032021.ssgreen.org",
       "server_port": 443,
-      "uuid": "0198d4a5-a324-4002-844a-3e7781ac0404",
+      "uuid": "652035cd-25ed-47ec-a96d-113038f179b0",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -356,7 +356,7 @@
       "tag": "[美国]美国08",
       "server": "US032022.ssgreen.org",
       "server_port": 443,
-      "uuid": "e8660432-929a-4638-947a-fa10c97b0f11",
+      "uuid": "02646e84-2a22-44ac-88bd-77427af959e9",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -367,7 +367,7 @@
       "tag": "[美国]美国09",
       "server": "US032023.ssgreen.org",
       "server_port": 443,
-      "uuid": "bbd3292f-646f-4ff4-b4d9-7fb4d0dbda41",
+      "uuid": "b88d2dd1-f776-43bd-b179-327b2f1f24bd",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -378,7 +378,7 @@
       "tag": "[美国]美国10",
       "server": "US032024.ssgreen.org",
       "server_port": 443,
-      "uuid": "8dbac034-3055-4455-8912-8ecfd061afb4",
+      "uuid": "6aeddb71-c2c5-40a2-bbd5-c3ad30f74c7e",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -400,7 +400,7 @@
       "tag": "[日本]日本02",
       "server": "JP032010.ssgreen.org",
       "server_port": 443,
-      "uuid": "cfb62279-ae44-44c7-bdff-2203c70d7097",
+      "uuid": "b9c5e82f-ae22-419d-bd87-a00fa2cf0a31",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -411,7 +411,7 @@
       "tag": "[日本]日本03",
       "server": "JP032008.ssgreen.org",
       "server_port": 443,
-      "uuid": "cea373ae-febd-4184-9314-f0ca2f123af3",
+      "uuid": "e289a946-a156-448c-b688-f5067e2a2241",
       "transport": {
         "type": "ws",
         "path": "/wes"
@@ -422,7 +422,7 @@
       "tag": "[日本]日本05",
       "server": "JP032004.ssgreen.org",
       "server_port": 443,
-      "uuid": "58c24f1f-5608-4b6d-b288-863ceda1a148",
+      "uuid": "d1a43678-6a22-469b-acd4-4598d58b1480",
       "transport": {
         "type": "ws",
         "path": "/wes"

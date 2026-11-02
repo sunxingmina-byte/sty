@@ -7,7 +7,7 @@ proxies:
   server: US122201.ssgreen.org
   tls: true
   type: vmess
-  uuid: 72e04246-3364-4ca6-beaf-d960bf0aef86
+  uuid: 2991b1de-fc76-4357-8f79-75dad945cf5c
   ws-opts:
     path: /wes
 - alterId: 0
@@ -18,7 +18,7 @@ proxies:
   server: US122202.ssgreen.org
   tls: true
   type: vmess
-  uuid: ef2a5846-a4c0-4ea1-988f-c2840e4c0786
+  uuid: 9967dd0f-5b14-415c-9bae-e669754ed600
   ws-opts:
     path: /wes
 - alterId: 0
@@ -29,7 +29,7 @@ proxies:
   server: US122204.ssgreen.org
   tls: true
   type: vmess
-  uuid: 2620c0da-f68c-4fb7-b5c1-7fac7b82b23e
+  uuid: 0d346e4c-952b-4018-9e17-390622434f96
   ws-opts:
     path: /wes
 - alterId: 0
@@ -40,7 +40,7 @@ proxies:
   server: US122205.ssgreen.org
   tls: true
   type: vmess
-  uuid: 852168d7-6aa1-4268-b5ab-2f1c2a264785
+  uuid: e52ca350-880e-45a6-928c-57dba5aa7819
   ws-opts:
     path: /wes
 - alterId: 0
@@ -51,7 +51,7 @@ proxies:
   server: US122206.ssgreen.org
   tls: true
   type: vmess
-  uuid: f056ea47-1d97-4627-8b19-efad2bb989ae
+  uuid: a26b583f-5d8c-4674-919c-de96a1e1acc4
   ws-opts:
     path: /wes
 - alterId: 0
@@ -62,7 +62,7 @@ proxies:
   server: US122207.ssgreen.org
   tls: true
   type: vmess
-  uuid: a053721b-716a-4c46-aafc-1947b5f2442d
+  uuid: 49e3041f-2926-4db2-9005-40f06800c70c
   ws-opts:
     path: /wes
 - alterId: 0
@@ -73,7 +73,7 @@ proxies:
   server: US122208.ssgreen.org
   tls: true
   type: vmess
-  uuid: 4c021940-cf2b-411e-8e6c-be2a7e25e029
+  uuid: a1596a47-37b8-48dc-8178-ffdc0d8617a6
   ws-opts:
     path: /wes
 - alterId: 0
@@ -84,7 +84,7 @@ proxies:
   server: US122209.ssgreen.org
   tls: true
   type: vmess
-  uuid: 212d446c-68d7-4f06-a1ac-271bf1bbbecc
+  uuid: 90900791-a4d3-4545-8cfb-fbfad92b192e
   ws-opts:
     path: /wes
 - alterId: 0
@@ -95,7 +95,7 @@ proxies:
   server: JP032005.ssgreen.org
   tls: true
   type: vmess
-  uuid: f147a18e-1019-4608-a7af-15503caa6d54
+  uuid: 6aa43193-e9aa-4834-ae8c-e7d4260b6e03
   ws-opts:
     path: /wes
 - alterId: 0
@@ -106,7 +106,7 @@ proxies:
   server: JP032006.ssgreen.org
   tls: true
   type: vmess
-  uuid: a22ab02b-a92a-4c90-86ee-cf2e4abcf04a
+  uuid: 730d70ce-cefa-4c17-828b-5a5e517af4d3
   ws-opts:
     path: /wes
 - alterId: 0
@@ -117,7 +117,7 @@ proxies:
   server: JP032007.ssgreen.org
   tls: true
   type: vmess
-  uuid: 40b2a4b1-aee1-4614-ab36-50244e87da91
+  uuid: 52ab4eb1-d881-4415-a11e-366728e014fa
   ws-opts:
     path: /wes
 - alterId: 0
@@ -128,7 +128,7 @@ proxies:
   server: US032010.westmgreen.com
   tls: true
   type: vmess
-  uuid: a10264a2-46ac-4715-abd3-50347f4185ca
+  uuid: 8dbb5f58-6a75-4068-87e7-22b63bb71c07
   ws-opts:
     path: /wes
 - alterId: 0
@@ -139,7 +139,7 @@ proxies:
   server: US032011.westmgreen.com
   tls: true
   type: vmess
-  uuid: 9986e4b0-df6d-4dcb-839d-1563d8d8e051
+  uuid: b1f36680-1206-4e31-911b-db111290af1a
   ws-opts:
     path: /wes
 - alterId: 0
@@ -150,7 +150,7 @@ proxies:
   server: US032012.westmgreen.com
   tls: true
   type: vmess
-  uuid: 2f67da41-46a0-4fbe-8f29-ec88b268c808
+  uuid: a3befd24-14f4-4e23-b094-3b0690a0048c
   ws-opts:
     path: /wes
 - alterId: 0
@@ -161,7 +161,7 @@ proxies:
   server: US032013.ssgreen.org
   tls: true
   type: vmess
-  uuid: 96595172-d6a1-4e4d-9668-0314fc6984c2
+  uuid: 47508a8f-84d3-403f-a413-a6e289e0355b
   ws-opts:
     path: /wes
 - alterId: 0
@@ -172,7 +172,7 @@ proxies:
   server: US032014.ssgreen.org
   tls: true
   type: vmess
-  uuid: 3cf82091-3ebc-4bd5-b3b1-278bf37037e2
+  uuid: 33d38296-7db7-4944-8a2a-717c5cc2c74f
   ws-opts:
     path: /wes
 - alterId: 0
@@ -183,7 +183,7 @@ proxies:
   server: JP032002.ssgreen.org
   tls: true
   type: vmess
-  uuid: a854b1fd-59fa-494e-a72c-a1f4e472c619
+  uuid: 3eb78ac6-d0a5-4221-9572-773587d52098
   ws-opts:
     path: /wes
 - alterId: 0
@@ -194,7 +194,7 @@ proxies:
   server: JP032011.ssgreen.org
   tls: true
   type: vmess
-  uuid: 67583a04-653f-4a35-a71c-a6252b9b07ba
+  uuid: f4c6f345-dadc-424e-891e-a5fb4b1cf742
   ws-opts:
     path: /wes
 - alterId: 0
@@ -205,7 +205,7 @@ proxies:
   server: JP032012.ssgreen.org
   tls: true
   type: vmess
-  uuid: 8ce673df-2b0c-4251-a1a1-1913fe8f1583
+  uuid: 452f29e1-ce47-4501-a568-d05db0514578
   ws-opts:
     path: /wes
 - alterId: 0
@@ -216,7 +216,7 @@ proxies:
   server: JP032001.ssgreen.org
   tls: true
   type: vmess
-  uuid: 028ad753-36fa-4e5f-848b-2c3b8b56301b
+  uuid: 4ce5f95c-c20d-4a36-b85f-2cfb36b4923b
   ws-opts:
     path: /wes
 - alterId: 0
@@ -227,7 +227,7 @@ proxies:
   server: US032017.ssgreen.org
   tls: true
   type: vmess
-  uuid: 9994001e-9bb9-4068-a10b-d4cfed51e8e8
+  uuid: 6ce293d4-c03d-46f0-be6b-b47ebbfa839f
   ws-opts:
     path: /wes
 - alterId: 0
@@ -238,7 +238,7 @@ proxies:
   server: US032018.ssgreen.org
   tls: true
   type: vmess
-  uuid: 4ed0b2e4-f840-4443-9d93-8cddde7ab4c5
+  uuid: 97dd28c1-3dd7-4ea8-a70e-02a6a44f9077
   ws-opts:
     path: /wes
 - alterId: 0
@@ -271,7 +271,7 @@ proxies:
   server: US032021.ssgreen.org
   tls: true
   type: vmess
-  uuid: 65016036-f059-4c6f-920a-06f1083b9222
+  uuid: 46d45a9f-f576-46eb-9568-366c99260c33
   ws-opts:
     path: /wes
 - alterId: 0
@@ -282,7 +282,7 @@ proxies:
   server: US032022.ssgreen.org
   tls: true
   type: vmess
-  uuid: 4713ab2b-fd3c-4751-8bee-37074fa21668
+  uuid: 7a497a5e-b41c-4054-8a8a-60e69d202dc2
   ws-opts:
     path: /wes
 - alterId: 0
@@ -293,7 +293,7 @@ proxies:
   server: US032023.ssgreen.org
   tls: true
   type: vmess
-  uuid: c9754a0b-1fd3-4cc3-bd0e-84831f569362
+  uuid: da99c61b-49e4-4e07-93bc-37a805dac271
   ws-opts:
     path: /wes
 - alterId: 0
@@ -304,7 +304,7 @@ proxies:
   server: US032024.ssgreen.org
   tls: true
   type: vmess
-  uuid: 0b5b6ccb-d55d-436b-bfa8-a008d2ec98ce
+  uuid: 3c3f5fa0-c9dc-4de6-bb4f-fb8d5e68ea29
   ws-opts:
     path: /wes
 - alterId: 0
@@ -315,7 +315,7 @@ proxies:
   server: JP032009.ssgreen.org
   tls: true
   type: vmess
-  uuid: 3ff8aa2d-42d6-4628-9e67-966a345614d5
+  uuid: a9d84f79-c82a-4ff7-a703-2ed65eda18ca
   ws-opts:
     path: /wes
 - alterId: 0
@@ -326,18 +326,7 @@ proxies:
   server: JP032010.ssgreen.org
   tls: true
   type: vmess
-  uuid: 45be0beb-34ab-450b-a791-7f4deef525a3
-  ws-opts:
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: '[日本]日本03'
-  network: ws
-  port: 443
-  server: JP032008.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 647442cc-f770-4303-8ad3-ad05009a5d84
+  uuid: 25182411-f89d-46d6-8345-ccb00b6b6c9e
   ws-opts:
     path: /wes
 - alterId: 0
@@ -348,7 +337,7 @@ proxies:
   server: JP032004.ssgreen.org
   tls: true
   type: vmess
-  uuid: d967dc54-0f3c-4348-aed0-d2ee4d8f4844
+  uuid: 8285d933-c94d-4091-9a2e-af54c02bfa9b
   ws-opts:
     path: /wes
 proxy-groups:
@@ -384,7 +373,6 @@ proxy-groups:
   - '[美国]美国10'
   - '[日本]日本01'
   - '[日本]日本02'
-  - '[日本]日本03'
   - '[日本]日本05'
   type: url-test
   url: http://www.gstatic.com/generate_204

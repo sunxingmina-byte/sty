@@ -7,7 +7,7 @@ proxies:
   server: US122201.ssgreen.org
   tls: true
   type: vmess
-  uuid: 417a4962-02da-4a43-b31d-b5d0f2b8e7eb
+  uuid: df7cff16-1397-4f89-b90e-97805e231d5c
   ws-opts:
     path: /wes
 - alterId: 0
@@ -18,7 +18,7 @@ proxies:
   server: US122202.ssgreen.org
   tls: true
   type: vmess
-  uuid: c349c939-2858-4bf4-acd1-7fedf0bc30ce
+  uuid: cdbaeae5-5c59-477d-91d4-9e60000b7978
   ws-opts:
     path: /wes
 - alterId: 0
@@ -29,7 +29,7 @@ proxies:
   server: US122204.ssgreen.org
   tls: true
   type: vmess
-  uuid: b7cee057-dddc-4737-8bc3-314baf9f7bb4
+  uuid: 6a120690-3dc7-4943-97fa-c91f66595567
   ws-opts:
     path: /wes
 - alterId: 0
@@ -40,7 +40,7 @@ proxies:
   server: US122205.ssgreen.org
   tls: true
   type: vmess
-  uuid: 5796e7f3-c9ac-459f-8d88-048ade537ecb
+  uuid: ec9b5778-a911-49ea-b076-1ae31a23b1ef
   ws-opts:
     path: /wes
 - alterId: 0
@@ -73,7 +73,7 @@ proxies:
   server: US122208.ssgreen.org
   tls: true
   type: vmess
-  uuid: 36f68625-e356-47b9-bdef-af5c5fa51d0f
+  uuid: ea6695a0-8c9f-45aa-9503-64f55a49d9b3
   ws-opts:
     path: /wes
 - alterId: 0
@@ -84,7 +84,7 @@ proxies:
   server: US122209.ssgreen.org
   tls: true
   type: vmess
-  uuid: 6a6a2f91-1fea-4589-bffb-f17cbbafc953
+  uuid: d9f6ec2d-0bc1-4dc8-86aa-9ee3ab9316e0
   ws-opts:
     path: /wes
 - alterId: 0
@@ -95,7 +95,7 @@ proxies:
   server: JP032005.ssgreen.org
   tls: true
   type: vmess
-  uuid: 0d6d709d-b384-48d6-83c0-774eddea1539
+  uuid: 1cef054b-9c74-42d1-bcc0-9679db7a72e9
   ws-opts:
     path: /wes
 - alterId: 0
@@ -106,7 +106,7 @@ proxies:
   server: JP032006.ssgreen.org
   tls: true
   type: vmess
-  uuid: 8b2bb494-7ad6-41ed-bc93-cba6acb69ddf
+  uuid: 87acfe13-a4f4-4b54-8a5f-cf1e116f9be1
   ws-opts:
     path: /wes
 - alterId: 0
@@ -117,7 +117,7 @@ proxies:
   server: JP032007.ssgreen.org
   tls: true
   type: vmess
-  uuid: ac07072f-8fdc-48dd-bf26-239b08ab4a9f
+  uuid: bf9aedec-e7dc-4007-935d-b6aa5cf1af72
   ws-opts:
     path: /wes
 - alterId: 0
@@ -128,7 +128,7 @@ proxies:
   server: US032010.westmgreen.com
   tls: true
   type: vmess
-  uuid: 0e63cc79-2685-43d2-8175-978283d81371
+  uuid: e0d965b6-641b-42c9-9710-3a1f5cc1f23c
   ws-opts:
     path: /wes
 - alterId: 0
@@ -161,7 +161,7 @@ proxies:
   server: US032013.ssgreen.org
   tls: true
   type: vmess
-  uuid: 7380e0b9-1b8a-456f-9189-bbff34a3f603
+  uuid: f60946f4-d284-4f3e-9b08-2415d48b13ad
   ws-opts:
     path: /wes
 - alterId: 0
@@ -172,7 +172,7 @@ proxies:
   server: US032014.ssgreen.org
   tls: true
   type: vmess
-  uuid: 066bcd0b-4499-4b20-b8bc-9b1a4405e2d3
+  uuid: 73bc4b1e-1c2d-4f4d-98c5-e1d785d098f2
   ws-opts:
     path: /wes
 - alterId: 0
@@ -194,7 +194,7 @@ proxies:
   server: JP032011.ssgreen.org
   tls: true
   type: vmess
-  uuid: d53bba97-1ae3-41d1-a48a-736241c721e5
+  uuid: 71a42e38-5604-4294-a9ca-cc4993e4c6b4
   ws-opts:
     path: /wes
 - alterId: 0
@@ -205,7 +205,7 @@ proxies:
   server: JP032012.ssgreen.org
   tls: true
   type: vmess
-  uuid: 396b750a-50ea-4b40-9025-f9ff2a362508
+  uuid: c04cc5cb-2c14-43bb-b221-0c25ebd85db9
   ws-opts:
     path: /wes
 - alterId: 0
@@ -216,7 +216,7 @@ proxies:
   server: JP032001.ssgreen.org
   tls: true
   type: vmess
-  uuid: 458ea7c0-ab5e-435e-aba4-e12d3033aa38
+  uuid: df690fc6-16d9-47cb-a515-af5f23b39887
   ws-opts:
     path: /wes
 - alterId: 0
@@ -227,7 +227,7 @@ proxies:
   server: US032017.ssgreen.org
   tls: true
   type: vmess
-  uuid: 3c9f3b99-6fbe-4dfa-895c-bd9e71738e80
+  uuid: 50ffa900-2b64-4e62-bb86-85c1e8ac5081
   ws-opts:
     path: /wes
 - alterId: 0
@@ -238,7 +238,7 @@ proxies:
   server: US032018.ssgreen.org
   tls: true
   type: vmess
-  uuid: b1a164b9-ad96-4331-89ca-688432b9afa9
+  uuid: bab52975-39fd-4a41-8ee0-7e9e6e789d6b
   ws-opts:
     path: /wes
 - alterId: 0
@@ -249,7 +249,7 @@ proxies:
   server: US032019.ssgreen.org
   tls: true
   type: vmess
-  uuid: e1928c50-9a09-4630-b280-a0023a1c26dc
+  uuid: 4693830a-3f8d-4411-ab70-d7a3035fad70
   ws-opts:
     path: /wes
 - alterId: 0
@@ -260,7 +260,7 @@ proxies:
   server: US032020.ssgreen.org
   tls: true
   type: vmess
-  uuid: 67121530-ea11-43ba-a2b9-8b76e939a425
+  uuid: 9c76707f-aef4-427c-afe9-90f841f92d76
   ws-opts:
     path: /wes
 - alterId: 0
@@ -271,7 +271,7 @@ proxies:
   server: US032021.ssgreen.org
   tls: true
   type: vmess
-  uuid: 305fa6e2-251c-4c35-b239-0e7410dc7beb
+  uuid: 423366ac-a1f8-48cb-b4c6-23599b6c5f74
   ws-opts:
     path: /wes
 - alterId: 0
@@ -282,7 +282,7 @@ proxies:
   server: US032022.ssgreen.org
   tls: true
   type: vmess
-  uuid: c1b46257-812b-4c9d-b47a-468e97f62a09
+  uuid: f98375b3-ff87-47f7-abaa-785fcecff5a4
   ws-opts:
     path: /wes
 - alterId: 0
@@ -293,7 +293,7 @@ proxies:
   server: US032023.ssgreen.org
   tls: true
   type: vmess
-  uuid: 9c37c031-1d10-42f3-9cfa-1d442bd905e5
+  uuid: 68fb4012-2c68-4561-8125-03fda13b30d6
   ws-opts:
     path: /wes
 - alterId: 0
@@ -304,7 +304,7 @@ proxies:
   server: US032024.ssgreen.org
   tls: true
   type: vmess
-  uuid: 20440550-9c84-4fa0-be32-74fc1e4f2ffa
+  uuid: a39b529d-de08-4260-afe6-ec8e6bb11ec6
   ws-opts:
     path: /wes
 - alterId: 0
@@ -315,18 +315,7 @@ proxies:
   server: JP032009.ssgreen.org
   tls: true
   type: vmess
-  uuid: d036ca7e-95ef-485a-8396-ca7693076555
-  ws-opts:
-    path: /wes
-- alterId: 0
-  cipher: auto
-  name: '[日本]日本02'
-  network: ws
-  port: 443
-  server: JP032010.ssgreen.org
-  tls: true
-  type: vmess
-  uuid: 179a5d03-2f89-485e-a82d-eaa4024ae090
+  uuid: eacf3d8e-3301-41ef-b71c-c702aacdd787
   ws-opts:
     path: /wes
 - alterId: 0
@@ -337,7 +326,7 @@ proxies:
   server: JP032008.ssgreen.org
   tls: true
   type: vmess
-  uuid: 07d6e79e-d15b-4d5e-b2f9-caec2d21517e
+  uuid: 7414cd46-8877-4d4b-b70c-25bc18f52f6c
   ws-opts:
     path: /wes
 - alterId: 0
@@ -348,7 +337,7 @@ proxies:
   server: JP032004.ssgreen.org
   tls: true
   type: vmess
-  uuid: 83b1deee-251d-48fb-bfed-cbfe3814865a
+  uuid: 523e7119-601e-40c5-9e59-c00d1197f535
   ws-opts:
     path: /wes
 proxy-groups:
@@ -383,7 +372,6 @@ proxy-groups:
   - '[美国]美国09'
   - '[美国]美国10'
   - '[日本]日本01'
-  - '[日本]日本02'
   - '[日本]日本03'
   - '[日本]日本05'
   type: url-test
